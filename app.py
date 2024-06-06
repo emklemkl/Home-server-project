@@ -31,7 +31,7 @@ def receipts_page():
 @app.errorhandler(404) 
 def not_found(e):
     print(e) 
-    return redirect(url_for("start_page")) 
+    return redirect(url_for("start_page"))
 
 if __name__ == "__main__":
     # project_page("6661982f72f0ee3f3bdb83b0")

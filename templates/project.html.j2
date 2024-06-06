@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+</head>
+
+<body>
+    <h1>ONE PROJECT</h1>
+    <div class="vertical-wrapper">
+        {% for key, value in project.items() %}
+        <div class="data-display vertical-wrapper">
+            <label for="span-value-{{key}}">{{key.capitalize()}}</label>
+            <textarea id="textarea-value-{{key}}" readonly>{{ value }}</textarea>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore environment folder
+.venv/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore logs and cache files
+*.log
+*.pot
+*.po~
+*.swp
+*.bak
+*.cache
+.cache/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Node.js specific files
+node_modules/
+
+# JavaScript build files
+dist/
+build/
+
+# Bower specific files
+bower_components/
+
+# Compiled TypeScript files
+*.js.map
+
+# Compiled CSS files
+*.css.map
+
+# Environment variables
+.env
